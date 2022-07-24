@@ -18,7 +18,7 @@ class Grades {
     let total = this.grades.reduce((a, b) => a + b);
     let averageGrade = total / this.grades.length;
 
-    return `${this.name} average grade is ${averageGrade}`;
+    return `${this.name} average grade is ${averageGrade.toFixed(2)}`;
   }
 }
 
